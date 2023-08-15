@@ -16,7 +16,10 @@ class RasaSpeaker:
 
     def speak(self):
 
-        this_hour = datetime.datetime.now().hour % 12
+        this_hour = datetime.datetime.now().hour
+
+        if this_hour > 12:
+            this_hour -= 12
 
         selected = ["prefix", str(this_hour), "suffix"]
 

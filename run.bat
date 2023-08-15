@@ -1,0 +1,1 @@
+"C:\Users\rasa\AppData\Local\Programs\Python\Python311\python.exe" C:\OnTheDot\main.py
